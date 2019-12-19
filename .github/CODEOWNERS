@@ -24,10 +24,10 @@
 * @marcmacorg/marcmac-test-team
 
 # team-two owns docs
-Docs/* @marcmacorg/marcmac-team-two
+/Docs/ @marcmacorg/marcmac-team-two
 
 # team-three owns src
-src/* @marcmacorg/marcmac-team-three
+/src/ @marcmacorg/marcmac-team-three
 
 # non-admin users own the data
-data/* @marcmacintyre @marcmac-itunes
+/data/ @marcmacintyre @marcmac-itunes
