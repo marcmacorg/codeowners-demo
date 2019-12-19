@@ -1,0 +1,33 @@
+#
+# Three users in marcmacorg
+#   marcmacintyre
+#   marcmac
+#   marcmac-itunes
+#
+# Three teams
+#   @marcmacorg/marcmac-test-team
+#     marcmac
+#     marcmacintyre
+#     marcmac-itunes
+#   @marcmacorg/marcmac-team-two
+#     marcmac
+#     marcmac-itunes
+#   @marcmacorg/marcmac-team-three
+#     marcmac
+#     marcmacintyre
+#
+#
+
+
+# Default is for everyone to be on the list
+
+* @marcmacorg/marcmac-test-team
+
+# team-two owns docs
+Docs/* @marcmacorg/marcmac-team-two
+
+# team-three owns src
+src/* @marcmacorg/marcmac-team-three
+
+# non-admin users own the data
+data/* @marcmacintyre @marcmac-itunes
